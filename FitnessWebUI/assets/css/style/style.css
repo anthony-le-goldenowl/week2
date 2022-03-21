@@ -29,3 +29,268 @@ nav ul li {
     display: inline-block;
     margin-right: 30px;
 }
+
+/* Started container */
+
+.imageContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.textImage {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 3vmin;
+}
+
+.textImage--Bold {
+    top: 44%;
+    left: 10%;
+    right: 40%;
+    font-weight: bold;
+    font-size: 7vmin;
+}
+
+.startedBtn {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background-color: lightskyblue;
+    font-size: 4vmin;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 10px;
+    font-family: "Fredoka", sans-serif;
+}
+
+/* body building container */
+
+.Container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    height: auto;
+}
+
+.imageCovered {
+    position: relative;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+.imageCovered img {
+    filter: brightness(50%);
+}
+
+
+.text-bodyBuilding {
+    position: absolute;
+    top: 33%;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-size: 26px;
+}
+
+.text-bodyBuilding--small {
+    top: 45%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.bodyBuilding--btn {
+    position: absolute;
+    top: 60%;
+    background-color: lightskyblue;
+    font-size: 16px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-family: "Fredoka", sans-serif;
+}
+
+/* About us*/
+.AboutUs__Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.aboutUs__content {
+    width: 50%;
+    padding: 0 2vw 0 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3vmin;
+}
+.aboutUs__image {
+    width: 50%;
+}
+
+.aboutUs__text--orange {
+    color: rgb(241, 73, 12);
+}
+
+.aboutUs__title {
+    font-size: 5vmin;
+    font-weight: bold;
+}
+
+.aboutUs__hr {
+    width: 30%;
+    height: 0.1vh;
+    background-color: black;
+    margin-bottom: 5px;
+    display: inline-block !important;
+    margin-left: 0px;
+}
+
+.aboutUs__ReadMore {
+    font-size: 2vmin;
+    width: 20%;
+    height: auto;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-family: "Fredoka", sans-serif;
+    background-color: rgb(75, 161, 214);
+}
+
+/*Our classes*/
+
+.OurClasses__Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222224;
+    color: white;
+    padding-top: 100px;
+}
+
+.ourClasses__hr {
+    width: 10%;
+    height: 2px;
+    background-color: #5eb6e1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ourClasses__content {
+    width: 80%;
+    text-align: center;
+    font-size: 3vmin;
+}
+
+.ourClasses__images {
+    width: 100%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.ourClasses__image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ourClasses__image--title {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vmin;
+}
+
+.ourClasses__image--Advanced {
+    width: 85%;
+    height: 78%;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    background: rgba(0, 183, 234, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourClasses__image--btn {
+    border-radius: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.5vmin;
+    padding: 1em 3em 1em 3em;
+}
+
+.footer__copyrights {
+    background-color: #24272e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+
+.footer__navbar {
+    background-color: #5eb6e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    background-color: #19191c;
+    height: 40vh;
+    color: white;
+}
+
+.flex--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__quick-contact {
+    color: white;
+
+}
+
+.title {
+    font-size: 1.5vmax;
+}
+
+.popular-tag {
+    border: 0.5px solid;
+    padding: 2px 5px 2px 5px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+
+.popular-tags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.popular-tag:hover {
+    background-color: lightseagreen;
+}
