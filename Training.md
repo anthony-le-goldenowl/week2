@@ -2,7 +2,7 @@
   |          Day          | Content                        |
   | --------------------- |:------------------------------:|
   | 3/21/2022             | [Detail](#321)                 |
-  |              |          |
+  | 3/22/2022             | [Detail](#322)                 |
   |              |   |
 
 
@@ -17,6 +17,21 @@
 4. **Our Classes**
 ![image](https://user-images.githubusercontent.com/101615624/159248522-42aee0af-4e61-4df6-8b16-1d7a66539cf7.png)
 5. **Footer**
+#### (3/22/2022) <a name="322"></a>
 ![image](https://user-images.githubusercontent.com/101615624/159248561-8c2e6bfb-99d5-44ca-8736-8549cad93f82.png)
+6. **Meet Our team**
+![image](![image](https://user-images.githubusercontent.com/101615624/159467126-3963ff3b-73c2-41f9-b85b-40438a25675d.png)
+7. **Testimonials**
+![image](https://user-images.githubusercontent.com/101615624/159467178-0eae2e18-4198-4264-a3f9-4f226504a568.png)
+8. **News**
+![image](https://user-images.githubusercontent.com/101615624/159467348-8d04fba9-ae87-4552-8275-64fedd9d6a84.png)
+9. **Contact Us**
+![image](https://user-images.githubusercontent.com/101615624/159467408-ddd178c3-9457-4005-adf3-e26c3d70b0d1.png)
+10. **Responsive UI**
+![image](https://user-images.githubusercontent.com/101615624/159467704-b8e3aad3-c507-4e53-a551-1fcb63896f2d.png)
+![image](https://user-images.githubusercontent.com/101615624/159467732-d6d72eb2-42a7-431c-b77c-f4c874c7af10.png)
+![image](https://user-images.githubusercontent.com/101615624/159467755-d5efb798-39c6-46c5-b0b2-bb6e4359c0c6.png)
+![image](https://user-images.githubusercontent.com/101615624/159467765-af81adc1-fd65-4ea1-a615-51bd1ec799e6.png)
+![image](https://user-images.githubusercontent.com/101615624/159467806-29e5f517-6474-4cc4-81fe-705635fea378.png)
 
-### Updating... 
+### Finished!!
