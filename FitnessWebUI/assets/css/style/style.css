@@ -4,7 +4,7 @@
 
 body {
     font-family: "Fredoka", sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .header {
@@ -30,6 +30,16 @@ nav ul li {
     margin-right: 30px;
 }
 
+nav ul li a {
+    color: black;
+}
+
+@media (max-width: 900px) {
+    .phone-number {
+        display: none;
+    }
+}
+
 /* Started container */
 
 .imageContainer {
@@ -42,7 +52,7 @@ nav ul li {
     top: 40%;
     left: 10%;
     color: white;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
 }
 
 .textImage--Bold {
@@ -50,7 +60,7 @@ nav ul li {
     left: 10%;
     right: 40%;
     font-weight: bold;
-    font-size: 7vmin;
+    font-size: 5vmin;
 }
 
 .startedBtn {
@@ -58,12 +68,34 @@ nav ul li {
     top: 70%;
     left: 10%;
     background-color: lightskyblue;
-    font-size: 4vmin;
+    font-size: 3vmin;
     padding: 0.5em 1.5em 0.5em 1.5em;
     border-radius: 10px;
     font-family: "Fredoka", sans-serif;
 }
 
+@media all and (max-width: 1165px) {
+    body {
+        font-size: 12px;
+    }
+    .textImage {
+        top: 20%;
+    }
+    .textImage--Bold {
+        top: 30%;
+    }
+}
+@media all and (max-width: 800px) {
+    body {
+        font-size: 6px;
+    }
+    .textImage {
+        top: 10%;
+    }
+    .textImage--Bold {
+        top: 20%;
+    }
+}
 /* body building container */
 
 .Container {
@@ -83,7 +115,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 10px 0 10px;
+    margin: 6px 10px 6px 10px;
 }
 
 .imageCovered img {
@@ -158,9 +190,23 @@ nav ul li {
     font-size: 2vmin;
     width: 20%;
     height: auto;
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 0.2em 1em 0.2em 1em;
     font-family: "Fredoka", sans-serif;
     background-color: rgb(75, 161, 214);
+}
+
+@media (max-width: 900px) {
+    .AboutUs__Container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutUs__content {
+        width: 100%;
+    }
+    .aboutUs__image {
+        width: 100%;
+    }
 }
 
 /*Our classes*/
@@ -293,4 +339,88 @@ nav ul li {
 
 .popular-tag:hover {
     background-color: lightseagreen;
+}
+
+/* Our team */
+.ourTeam__info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: "Fredoka", sans-serif !important;
+}
+
+.ourTeam__info-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ourTeam__info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 300px;
+    margin: 0 10px 0 10px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 2px rgb(158, 158, 158);
+}
+
+.ourTeam__info-card--name {
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-family: "Fredoka", sans-serif !important;
+}
+.ourTeam__info-card--role {
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+.Testimonials__Container {
+    color: white;
+    background-color: #181a1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.Testimonials__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 420px;
+}
+
+.Testimonials__content p {
+    width: 60%;
+    text-align: center;
+    margin-left: 20vw;
+    margin-bottom: 30px;
+}
+
+.contactUs__Form {
+    width: 70%;
+    font-family: "Fredoka", sans-serif !important;
+}
+
+.form-control {
+    color: white !important;
+    background-color: transparent !important;
+}
+
+@media (max-width: 900px) {
+    .contactUs__Form {
+        width: 100%;
+    }
 }

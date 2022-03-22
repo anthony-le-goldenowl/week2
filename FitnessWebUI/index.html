@@ -8,31 +8,54 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+            integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+            integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+            crossorigin="anonymous"></script>
     </head>
+
+
     <body>
-        <!--Header-->
-        <div class="header">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="assets/images/WebLogo.png" alt="logo" width="80%" height="80%" />
-                    </a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Classes</a></li>
-                        <li><a>News</a></li>
-                        <li><a>Contact</a></li>
-                    </ul>
+        <section class="ftco-section"> 
+            <div class="container">
+                <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+                    <div class="container">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/WebLogo.png" alt="logo" width="80%" height="80%" />
+                            </a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fa fa-bars"></span><i class="bi bi-card-list"></i>  Menu
+                        </button>
+                        <div class="collapse navbar-collapse" id="ftco-nav">
+                            <ul class="navbar-nav ml-auto mr-md-3">
+                                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                                <li class="nav-item"><a href="#classes" class="nav-link">Classes</a></li>
+                                <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
+                                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="phone-number">
+                            <img src="assets/images/phone-call.png" alt="" />
+                            09999999999
+                        </div>
+                    </div>
                 </nav>
-                <div class="phone-number">
-                    <img src="assets/images/phone-call.png" alt="" />
-                    09999999999
-                </div>
+                <!-- END nav -->
             </div>
-        </div>
+        
+        </section>
+
         <!--Get started-->
         <div class="imageContainer">
             <img src="assets/images/Get Started.png" alt="" width="100%" height="100%" />
@@ -40,6 +63,8 @@
             <div class="textImage textImage--Bold">Solutions for moving better and feeling althier.</div>
             <button class="startedBtn" type="button">Get Started</button>
         </div>
+
+
         <!--Body building-->
         <div class="Container">
             <div class="imageCovered">
@@ -63,8 +88,10 @@
                 <button class="bodyBuilding--btn" type="button">$200/M</button>
             </div>
         </div>
+
+
         <!--About us-->
-        <div class="AboutUs__Container">
+        <div class="AboutUs__Container" id="about">
             <div class="aboutUs__content">
                 <div class="aboutUs__text--orange" style="font-size: 2vmin;">ABOUT US</div>
                 <div class="aboutUs__title">Welcome to Bestrong</div>
@@ -78,8 +105,10 @@
             </div>
             <div class="aboutUs__image"><img src="assets/images/brunette-woman-.jpeg" width="90%" height="90%" /></div>
         </div>
+
+
         <!--Our classes-->
-        <div class="OurClasses__Container">
+        <div class="OurClasses__Container" id="classes">
             <div class="aboutUs__title">Our Classes</div>
             <hr class="ourClasses__hr">
             <br>
@@ -118,6 +147,166 @@
                 </div>
             </div>
         </div>
+
+
+        <!--Meet Our Team-->
+        <div class="OurClasses__Container" style="background-color: white; color: black" >
+            <div class="title" style="font-size: 2.5vmax">Meet Our Team</div>
+            <hr class="ourClasses__hr" style="background-color: blue;">
+            <div class="ourClasses__content">If you run a fitness gym, this is one slogan that can bring customers in. No one likes having to drive miles out of their way to go to the gym. It is always easier to have a gym that is actually close to home. Your body hears everything that your mind says.</div>
+            <div class="ourTeam__info-container">
+                <div class="ourTeam__info-card">
+                    <img src="assets/images/brunette-woman-.png" width="100%" height="300px" alt=""/>
+                    <div class="ourTeam__info-card--name">Higgins Emma</div>
+                    <div class="ourTeam__info-card--role">Body Building</div>
+                    <img src="assets/images/Group 4.png" width="20%" height="5%" alt=""/>
+                </div>
+                <div class="ourTeam__info-card">
+                    <img src="assets/images/fitness-woman-w2.png" width="100%" height="300px" alt=""/>
+                    <div class="ourTeam__info-card--name">Katherine Robinson</div>
+                    <div class="ourTeam__info-card--role">Fitness Coach</div>
+                    <img src="assets/images/Group 4.png" width="20%" height="5%" alt=""/>
+                </div>
+                <div class="ourTeam__info-card">
+                    <img src="assets/images/fitness-days-go.png" width="100%" height="300px" alt=""/>
+                    <div class="ourTeam__info-card--name">Skye Sorenson</div>
+                    <div class="ourTeam__info-card--role">Personal Trainer</div>
+                    <img src="assets/images/Group 4.png" width="20%" height="5%" alt=""/>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Testimonials-->
+        <div class="Testimonials__Container">
+            <div class="ourTeam__info-card--name" style="font-size: 2em">Testimonials</div>
+            <hr class="ourClasses__hr">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="Testimonials__content">
+                            <div class="">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                                    dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+                            </div>
+                            <img src="assets/images/woman-exercing-.png">
+                            <h5 style="margin-top: 10px;">ahmed elsayed</h5>
+                            <h6>Our Client</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="Testimonials__content">
+                            <div class="">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                                    dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+                            </div>
+                            <img src="assets/images/woman-exercing-.png">
+                            <h5>ahmed elsayed</h5>
+                            <h6>Our Client</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="Testimonials__content">
+                            <div class="">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                                    dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+                            </div>
+                            <img src="assets/images/woman-exercing-.png">
+                            <h5>ahmed elsayed</h5>
+                            <h6>Our Client</h6>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!--Recent News-->
+        <div class="OurClasses__Container" style="background-color: white; color: black" id="news"> 
+            <div class="ourTeam__info-card--name" style="font-size: 3em;">Recent News</div>
+            <hr class="ourClasses__hr">
+            <div class="ourTeam__info-container">
+                <div class="card mx-1 pt-2 px-2 mt-2" style="width: 18rem; height: 30rem; background-color: #13191a; color: white;">
+                    <img src="assets/images/marathon-run-pe.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">This Harvard Student Ran 70 Miles Back to College</h5>
+                        <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis.</p>
+                    </div>
+                    <div class="card-body">
+                        <a class="card-link"><img src="assets/images/Path 4.png"> Justina Smith</a>
+                        <a class="card-link"><img src="assets/images/Path 13.png">  1h ago</a>
+                    </div>
+                </div>
+                <div class="card mx-1 pt-2 px-2 mt-2" style="width: 18rem; height: 30rem; background-color: #13191a; color: white;">
+                    <img src="assets/images/intensive-worko.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Female Boxers Describe What It’s Like to Take a Punch</h5>
+                        <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis.</p>
+                    </div>
+                    <div class="card-body">
+                        <a class="card-link"><img src="assets/images/Path 4.png"> Justina Smith</a>
+                        <a class="card-link"><img src="assets/images/Path 13.png"> 1h ago</a>
+                    </div>
+                </div>
+                <div class="card mx-1 pt-2 px-2 mt-2" style="width: 18rem; height: 30rem; background-color: #13191a; color: white;">
+                    <img src="assets/images/healthy-woman-r.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">21 Top Fitness Blogs You Should Follow in 2021</h5>
+                        <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est eopksio laborum. Sed ut perspiciatis.</p>
+                    </div>
+                    <div class="card-body">
+                        <a class="card-link"><img src="assets/images/Path 4.png"> Justina Smith</a>
+                        <a class="card-link"><img src="assets/images/Path 13.png"> 1h ago</a>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg mt-5">See More News</button>
+        </div>
+
+        
+        <!--Contact Us-->
+        <div class="AboutUs__Container" style="background-color: #181a1f; color: white; margin-bottom: 0px;" id="contact">
+            <div class="aboutUs__content">
+                <div class="aboutUs__title">Contact Us</div>
+                <hr class="aboutUs__hr mb-5" style="background-color: blue;">
+                <br>
+                <form class="contactUs__Form">
+                    <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>subject</option>
+                            <option>subject 1</option>
+                            <option>subject 2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message here ..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <br><br>
+                    <div style="margin-top: 10px; font-size: 1rem; margin-bottom: 10px">lehoang8d@gmail.com | +09499999999</div>
+                    <img src="assets/images/Group 35.png" style="margin-bottom: 10px;" />
+                </form>
+            </div>
+            <div class="aboutUs__image"><img src="assets/images/female-bodybuil.png" width="90%" height="90%" /></div>
+        </div>
+
+
         <!--Footer-->
         <div class="footer__content">
             <div class="flex--center">
@@ -165,3 +354,4 @@
         </div>
     </body>
 </html>
+
