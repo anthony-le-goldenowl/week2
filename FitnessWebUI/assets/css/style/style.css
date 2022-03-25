@@ -86,22 +86,22 @@ nav ul li a {
 /* body building container */
 
 .body-building__container {
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex: 1;
     height: auto;
+    margin-top: 100px;
 }
 
 .image-covered {
-    position: relative;
-    width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    width: 400px;
     margin: 6px 10px 6px 10px;
 }
 
@@ -135,20 +135,20 @@ nav ul li a {
 
 /* About us*/
 .about-us__container {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    height: auto;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .about-us__content {
-    width: 50%;
-    padding: 0 2vw 0 4vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
+    padding: 0 2vw 0 4vw;
     font-size: 3vmin;
 }
 .about-us__image {
@@ -181,11 +181,11 @@ nav ul li a {
 }
 
 .about-us__hr {
+    display: inline-block !important;
     width: 30%;
     height: 0.1vh;
     background-color: black;
     margin-bottom: 5px;
-    display: inline-block !important;
     margin-left: 0px;
 }
 
@@ -201,12 +201,12 @@ nav ul li a {
 /*Our classes*/
 
 .our-classes__container {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
     background-color: #222224;
     color: white;
     padding-top: 100px;
@@ -227,11 +227,11 @@ nav ul li a {
 }
 
 .our-classes__images {
-    width: 100%;
-    height: 30%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
+    width: 100%;
+    height: 30%;
 }
 
 .our-classes__image {
@@ -241,28 +241,28 @@ nav ul li a {
 }
 
 .our-classes__image--title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     bottom: 0;
     background: rgba(0,0,0,0.7);
     height: 30%;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 4vmin;
 }
 
 .our-classes__image--advanced {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 85%;
     height: 78%;
     position: absolute;
     top: 10%;
     left: 8%;
     background: rgba(0, 183, 234, 0.8);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .our-classes__image--btn {
@@ -273,19 +273,19 @@ nav ul li a {
 }
 
 .footer__copyrights {
-    background-color: #24272e;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #24272e;
     color: white;
     height: 10vh;
 }
 
 .footer__navbar {
-    background-color: #5eb6e1;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #5eb6e1;
     height: 9vh;
 }
 
@@ -341,11 +341,11 @@ nav ul li a {
 }
 
 .our-team__info-container {
-    width: 80%;
-    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
 }
 
 .our-team__info-card {
@@ -371,12 +371,12 @@ nav ul li a {
 
 /* testimonials */
 .testimonials__container {
-    color: white;
-    background-color: #181a1f;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
+    background-color: #181a1f;
     margin-top: 100px;
     padding-top: 50px;
 }
