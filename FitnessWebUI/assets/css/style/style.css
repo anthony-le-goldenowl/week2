@@ -9,7 +9,6 @@ body {
 
 .header {
     max-width: 1300px;
-    margin: auto;
 }
 
 .navbar {
@@ -42,12 +41,12 @@ nav ul li a {
 
 /* Started container */
 
-.imageContainer {
+.image-container {
     position: relative;
     display: inline-block;
 }
 
-.textImage {
+.text-image {
     position: absolute;
     top: 40%;
     left: 10%;
@@ -55,7 +54,7 @@ nav ul li a {
     font-size: 2.5vmin;
 }
 
-.textImage--Bold {
+.text-image--Bold {
     top: 44%;
     left: 10%;
     right: 40%;
@@ -63,7 +62,7 @@ nav ul li a {
     font-size: 5vmin;
 }
 
-.startedBtn {
+.started-btn {
     position: absolute;
     top: 70%;
     left: 10%;
@@ -73,32 +72,20 @@ nav ul li a {
     border-radius: 10px;
     font-family: "Fredoka", sans-serif;
 }
-
-@media all and (max-width: 1165px) {
-    body {
-        font-size: 12px;
-    }
-    .textImage {
-        top: 20%;
-    }
-    .textImage--Bold {
-        top: 30%;
-    }
-}
 @media all and (max-width: 800px) {
     body {
         font-size: 6px;
     }
-    .textImage {
+    .text-image {
         top: 10%;
     }
-    .textImage--Bold {
+    .text-image--Bold {
         top: 20%;
     }
 }
 /* body building container */
 
-.Container {
+.body-building__container {
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -107,7 +94,7 @@ nav ul li a {
     height: auto;
 }
 
-.imageCovered {
+.image-covered {
     position: relative;
     width: 400px;
     display: flex;
@@ -118,12 +105,12 @@ nav ul li a {
     margin: 6px 10px 6px 10px;
 }
 
-.imageCovered img {
+.image-covered img {
     filter: brightness(50%);
 }
 
 
-.text-bodyBuilding {
+.text-body-building {
     position: absolute;
     top: 33%;
     color: white;
@@ -131,13 +118,13 @@ nav ul li a {
     font-size: 26px;
 }
 
-.text-bodyBuilding--small {
+.text-body-building--small {
     top: 45%;
     font-size: 20px;
     font-style: italic;
 }
 
-.bodyBuilding--btn {
+.body-building--btn {
     position: absolute;
     top: 60%;
     background-color: lightskyblue;
@@ -147,7 +134,7 @@ nav ul li a {
 }
 
 /* About us*/
-.AboutUs__Container {
+.about-us__container {
     width: 100%;
     height: auto;
     display: flex;
@@ -156,7 +143,7 @@ nav ul li a {
     margin-bottom: 100px;
 }
 
-.aboutUs__content {
+.about-us__content {
     width: 50%;
     padding: 0 2vw 0 4vw;
     display: flex;
@@ -164,20 +151,36 @@ nav ul li a {
     justify-content: center;
     font-size: 3vmin;
 }
-.aboutUs__image {
+.about-us__image {
     width: 50%;
 }
 
-.aboutUs__text--orange {
+
+@media (max-width: 900px) {
+    .about-us__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-us__content {
+        width: 100%;
+    }
+    .about-us__image {
+        width: 100%;
+    }
+}
+
+
+.about-us__text--orange {
     color: rgb(241, 73, 12);
 }
 
-.aboutUs__title {
+.about-us__title {
     font-size: 5vmin;
     font-weight: bold;
 }
 
-.aboutUs__hr {
+.about-us__hr {
     width: 30%;
     height: 0.1vh;
     background-color: black;
@@ -186,7 +189,7 @@ nav ul li a {
     margin-left: 0px;
 }
 
-.aboutUs__ReadMore {
+.about-us__ReadMore {
     font-size: 2vmin;
     width: 20%;
     height: auto;
@@ -195,23 +198,9 @@ nav ul li a {
     background-color: rgb(75, 161, 214);
 }
 
-@media (max-width: 900px) {
-    .AboutUs__Container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .aboutUs__content {
-        width: 100%;
-    }
-    .aboutUs__image {
-        width: 100%;
-    }
-}
-
 /*Our classes*/
 
-.OurClasses__Container {
+.our-classes__container {
     width: 100%;
     height: auto;
     display: flex;
@@ -223,7 +212,7 @@ nav ul li a {
     padding-top: 100px;
 }
 
-.ourClasses__hr {
+.our-classes__hr {
     width: 10%;
     height: 2px;
     background-color: #5eb6e1;
@@ -231,13 +220,13 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.ourClasses__content {
+.our-classes__content {
     width: 80%;
     text-align: center;
     font-size: 3vmin;
 }
 
-.ourClasses__images {
+.our-classes__images {
     width: 100%;
     height: 30%;
     display: grid;
@@ -245,13 +234,13 @@ nav ul li a {
     grid-template-rows: auto auto;
 }
 
-.ourClasses__image {
+.our-classes__image {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.ourClasses__image--title {
+.our-classes__image--title {
     position: absolute;
     bottom: 0;
     background: rgba(0,0,0,0.7);
@@ -263,7 +252,7 @@ nav ul li a {
     font-size: 4vmin;
 }
 
-.ourClasses__image--Advanced {
+.our-classes__image--advanced {
     width: 85%;
     height: 78%;
     position: absolute;
@@ -276,7 +265,7 @@ nav ul li a {
     align-items: center;
 }
 
-.ourClasses__image--btn {
+.our-classes__image--btn {
     border-radius: 20px;
     font-family: "Fredoka", sans-serif;
     font-size: 1.5vmin;
@@ -342,7 +331,7 @@ nav ul li a {
 }
 
 /* Our team */
-.ourTeam__info-container {
+.our-team__info-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -351,7 +340,7 @@ nav ul li a {
     font-family: "Fredoka", sans-serif !important;
 }
 
-.ourTeam__info-container {
+.our-team__info-container {
     width: 80%;
     height: 100%;
     display: flex;
@@ -359,7 +348,7 @@ nav ul li a {
     flex-wrap: wrap;
 }
 
-.ourTeam__info-card {
+.our-team__info-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -371,17 +360,17 @@ nav ul li a {
     box-shadow: 2px 2px 2px rgb(158, 158, 158);
 }
 
-.ourTeam__info-card--name {
+.our-team__info-card--name {
     font-size: 1.5em;
     margin-top: 10px;
     font-family: "Fredoka", sans-serif !important;
 }
-.ourTeam__info-card--role {
+.our-team__info-card--role {
     margin-bottom: 10px;
 }
 
-/* Testimonials */
-.Testimonials__Container {
+/* testimonials */
+.testimonials__container {
     color: white;
     background-color: #181a1f;
     display: flex;
@@ -392,7 +381,7 @@ nav ul li a {
     padding-top: 50px;
 }
 
-.Testimonials__content {
+.testimonials__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -402,14 +391,14 @@ nav ul li a {
     height: 420px;
 }
 
-.Testimonials__content p {
+.testimonials__content p {
     width: 60%;
     text-align: center;
     margin-left: 20vw;
     margin-bottom: 30px;
 }
 
-.contactUs__Form {
+.contact-us__form {
     width: 70%;
     font-family: "Fredoka", sans-serif !important;
 }
@@ -420,7 +409,7 @@ nav ul li a {
 }
 
 @media (max-width: 900px) {
-    .contactUs__Form {
+    .contact-us__form {
         width: 100%;
     }
 }
