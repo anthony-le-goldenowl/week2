@@ -3,7 +3,7 @@
   | --------------------- |:------------------------------:|
   | 3/21/2022             | [Detail](#321)                 |
   | 3/22/2022             | [Detail](#322)                 |
-  |              |   |
+  |  3/24/2022            | [Detail](#324)                 |
 
 
 ### Fitness Web UI Design 
@@ -34,4 +34,28 @@
 ![image](https://user-images.githubusercontent.com/101615624/159467765-af81adc1-fd65-4ea1-a615-51bd1ec799e6.png)
 ![image](https://user-images.githubusercontent.com/101615624/159467806-29e5f517-6474-4cc4-81fe-705635fea378.png)
 
-### Finished!!
+### Review Code (3/24/2022) <a name="324"></a>
+1. https://sass-lang.com/guide
+2. ![image](https://user-images.githubusercontent.com/101615624/160040259-104df233-eb6c-4c36-b20f-4280f3f7293d.png)
+ - Fix: image-container (No uppercase)
+3. ![image](https://user-images.githubusercontent.com/101615624/160040347-f4eb643f-9da1-4fd0-8071-9e9d832fb835.png)
+ - Responsive 1 width config only.
+4. ![image](https://user-images.githubusercontent.com/101615624/160040447-0ffb0563-5bc0-491c-b3d9-f01424ab1308.png)
+ - Fix: 
+         .image-covered {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            width: 400px;
+            margin: 6px 10px 6px 10px;
+        }
+5. https://css-tricks.com/bem-101/
+( Review by @Steven )
+6. In conclusion:
+ - Clean code very very useful and indispensable.
+ - Learn more about responsive.
+
+### Finished!
